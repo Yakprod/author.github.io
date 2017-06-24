@@ -5,21 +5,110 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 	/**/
-
-
+	.site-header
+		.logo
+			margin-left: 5%
+		.mmenu
+			float: right
+			margin-left: 0
+			margin-right: 5%
+	.team .item:nth-child(4)
+		margin-right: 0
+	.team .item:last-child
+		margin-top: 40px
+	.plans .item:last-child
+		margin-top: 40px
+	.contacts
+		.left-col
+			margin-left: 5%
+		.right-col
+			margin-right: 5%
+			.Email, .name
+				width: 240px
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	/**/
+	.site-header
+		.mmenu
+			display: none
 
-
+		.menu
+			display: block
+			&-link
+				display: block
+				float: right
+				margin-top: 48px
+				& span, span:before, span:after
+					display: block
+		.header-slider .main .item .slide-content
+			.h1
+				font-size: 45px
+			& p
+				font-size: 16px
+	.team .item:nth-child(3)
+		margin-right: 0
+	.team .item:nth-child(4)
+		margin-right: 55px
+	.contacts
+		.right-col
+			width: 40%
+			.name, .Email
+				width: 100%
+			.Email
+				margin-top: 20px
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	/**/
-
-
+	.site-header
+		.header-slider .main .item .slide-content
+			.h1
+				font-size: 26px
+			.button
+				font-size: 20px
+				padding: 15px 20px
+		.owl-carousel .owl-nav
+			display: none
+	.h2
+		font-size: 26px
+		padding-top: 50px
+		padding-bottom: 50px
+	.team .item
+		margin: 0
+		width: 80%
+		&:nth-child(4)
+			margin: 0
+	.plans
+		padding-top: 50px
+		padding-bottom: 50px 
+		.item
+			margin: 0
+			&:nth-child(2)
+				margin-top: 40px
+	.contacts
+		padding-bottom: 50px
+		.h2
+			padding-top: 50px
+			padding-bottom: 50px
+	.contacts 
+		text-align: center
+		.left-col, .right-col
+			width: 80%
+			display: block
+			margin: 0 auto
+			float: none
+		.right-col
+			margin-top: 40px
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	/**/
+	.site-header
+		.header-slider .main .item .slide-content
+			& p
+				width: auto
+	.plans .item
+		width: auto
+
+
 
 
 /* Custom, iPhone Retina */

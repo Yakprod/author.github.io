@@ -40,14 +40,28 @@
       				<div class="logo">
       					<a href="#">Author</a>
       				</div>
+      				<a href="#menu" class="menu-link ">
+	    						<span></span>
+	    					</a>
+	    					<nav class="menu">
+	    						<ul>
+	    							<li><a href="">Home</a></li>
+	    							<li><a href="">Service</a></li>
+	    							<li><a href="">Portfolio</a></li>
+	    							<li><a href="">Team</a></li>
+	    							<li><a href="">Blog</a></li>
+	    							<li><a href="">Contact</a></li>
+	    						</ul>
+	    					</nav>
 	    				<div class="mmenu">
+
 	    					<ul>
 	    						<li><a href="">Home</a></li>
-	    						<li><a href="">Service</a></li>
+	    						<li><a href="#Plan">Service</a></li>
 	    						<li><a href="">Portfolio</a></li>
-	    						<li><a href="">Team</a></li>
+	    						<li><a href="#Team">Team</a></li>
 	    						<li><a href="">Blog</a></li>
-	    						<li><a href="">Contact</a></li>
+	    						<li><a href="#Contact">Contact</a></li>
 	    					</ul>
 	    				</div>
       			</div>
@@ -89,7 +103,7 @@
       </div>
 
       <div id="my-content">
-      	<section class="team">
+      	<section class="team" id="Team">
           <div class="container">
             <h2 class="h2">The Team</h2>
             <div class="item">
@@ -136,7 +150,7 @@
           </div>
         </section>
 
-				<section class="plans">
+				<section class="plans" id="Plan">
           <div class="container">
             <div class="item">
               <h3 class="h3">Basic</h3>
@@ -188,7 +202,7 @@
       </div>
 
       <div id="my-footer">
-      	<section class="contacts" style="background-image: url(img/footer_bg.png);">
+      	<section class="contacts" style="background-image: url(img/footer_bg.png);" id="Contact">
           <div class="container">
             <div class="h2">Contact Us</div>
             <div class="left-col">
@@ -202,7 +216,7 @@
               <div class="mail">
                 <p>Posted by Dospel & GanjaParker</p>
                 <p>+XX-XXXX - XXXX - XX</p>
-                <a href="">info@mail.com</a>
+                <a href="mailto:info@mail.com">info@mail.com</a>
               </div>
             </div>
 
@@ -215,6 +229,7 @@
                 	<input type="text" placeholder="Email">
                 </div>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <a href="" class="button">Send</a>
               </form>
             </div>
           </div>
